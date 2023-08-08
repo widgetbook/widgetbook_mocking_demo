@@ -15,7 +15,7 @@ class LocoApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: ChangeNotifierProvider(
-        create: (context) => ItemProvider(),
+        create: (_) => ItemProvider(),
         child: const HomePage(),
       ),
     );

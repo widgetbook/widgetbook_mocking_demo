@@ -12,13 +12,7 @@ class ItemTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       title: Text(title),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(12),
-        side: const BorderSide(
-          color: Colors.purple,
-          width: 3,
-        ),
-      ),
+      tileColor: Colors.yellow,
     );
   }
 }
